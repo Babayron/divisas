@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+    background: #ffffff;
+    padding: 20px;
+  }
+
+  #divisas-container {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #111;
+  }
+
+  p.subtitulo {
+    margin: 4px 0 32px 0;
+    color: #999;
+    font-size: 0.85rem;
+  }
+
+  label {
+    display: block;
+    font-size: 0.75rem;
+    color: #999;
+    margin-bottom: 4px;
+    margin-top: 20px;
+  }
+
+  select,
+  input {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    font-size: 1rem;
+    background: transparent;
+    color: #111;
+    appearance: none;
+  }
+
+  select:focus,
+  input:focus {
+    outline: none;
+    border-bottom-color: #111;
+  }
+
+  button#convertir {
+    width: 100%;
+    margin-top: 32px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #111;
+    background: transparent;
+    color: #111;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  button#convertir:hover {
+    color: #555;
+    border-bottom-color: #555;
+  }
+
+  #resultado {
+    margin-top: 24px;
+    padding: 0;
+    color: #111;
+    font-size: 1rem;
+    text-align: left;
+  }
